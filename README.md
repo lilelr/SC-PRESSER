@@ -23,10 +23,9 @@ In the directory **/codes**, The "**static-squeezing**" folder contains the code
 PRESSER leverage the docker command "**docker stats**" to record the resource usages of each MLOS appications in GAP machanism. And $\alpha-CAP$ machanism employ the docker command  "**docker update**" to limit the available CPU and memory resources of a Docker container. By dynamically limiting the CPU mand memory resources of a container where a non-MLOS application runs, $\alpha-CAP$ achieves the objective that squeezing CPU and memory resources from Docker containers running MLOS applications to Docker containers executing non-MLOS applications. 
 
 
-### Data Sets Preparation
+### Datasets Preparation
 
-We leverage the Spark version of TPC-DS and the installation of it is as follows:
-https://github.com/lilelr/BaBench
+We leverage the updatest version of TPC-DS, please see the official website. 
 
 ### Experiment Steps
 
